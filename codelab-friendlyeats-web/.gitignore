@@ -1,0 +1,6 @@
+**/.firebaserc
+**/node_modules/
+**/*-debug.log
+**/.DS_Store
+**/.env.local
+**/.next/
