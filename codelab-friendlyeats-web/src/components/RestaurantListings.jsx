@@ -82,7 +82,9 @@ export default function RestaurantListings({
 		}, filters);
 
 		return () => {
-			unsubscribe();
+			if (unsubscribe) {
+				unsubscribe();
+			}
 		};
 	}, [filters]);
 
